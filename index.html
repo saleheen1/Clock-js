@@ -9,9 +9,9 @@
 
     <div class="clock">
       <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
+        <div class="hand hour"></div>
+        <div class="hand min"></div>
+        <div class="hand second"></div>
       </div>
     </div>
 
@@ -57,8 +57,11 @@
       top: 50%;
       transform: rotate(90deg);
       transform-origin: 100%;
-      transition: all 0.3s;
+      transition: all 0.2s;
       transition-timing-function: cubic-bezier(0.25, 0.1, 0.15, 2.15);
+    }
+    .hour{
+      background: red;
     }
 
   </style>
