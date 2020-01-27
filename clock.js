@@ -13,10 +13,7 @@ setInterval(() => {
     const minDeg = ((min/60)*360 )+90;
     const secDeg = ((sec/60)*360) +90;
     const hrDeg = ((hr/12)*360) +90;
-
-    if(sec===0 || sec ===1){
-        second.style.transition ='0s';
-    }
+    
     second.style.transform = `rotate(${secDeg}deg)`;
     minutes.style.transform = `rotate(${minDeg}deg)`;
     hour.style.transform = `rotate(${hrDeg}deg)`;
